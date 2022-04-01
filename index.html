@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--
+      This is the page head - it contains info the browser uses to display the page
+      You won't see what's in the head in the page
+      Scroll down to the body element for the page content
+    -->
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+
+    <!-- 
+      This is an HTML comment
+      You can write text in a comment and the content won't be visible in the page
+    -->
+
+    <title>Light &amp Sound Memory Game</title>
+
+    
+
+    <!-- Import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- Import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <!--
+      This is the body of the page
+      Look at the elements and see how they appear in the rendered page on the right
+      Each element is defined using tags, with < and > indicating where each one opens and closes
+      There are elements for sections of the page, images, text, and more
+      The elements include attributes referenced in the CSS for the page style
+    -->
+
+    <!-- The wrapper and content divs set margins and positioning -->
+    <div class="wrapper">
+      <div class="content" role="main">
+        <!-- This is the start of content for our page -->
+        <h1>Light and Sound Memory Game</h1>
+
+        
+        <!-- Instructions on using this project -->
+        <div class="instructions">
+          <h2>
+            Welcome to the Light and Sound Memory Game! Repeat the patterns displayed on screen to win!
+          </h2>
+          
+          <p>
+            Select your difficulty. The harder the difficulty, the more buttons you have to keep track of.
+          </p>
+          
+          <button id="easyBtn" onclick="setDifficultyEasy()">
+            Easy
+          </button>
+          
+          <!--Displays selected difficulty but doesnt unhide the start if clicked while game is running-->
+          <button id="easyBtn2" class="hidden">
+            Easy
+          </button>
+          
+          <button id="medBtn" onclick="setDifficultyMed()">
+            Medium
+          </button>
+          
+          <button id="medBtn2" class="hidden">
+            Medium
+          </button>
+          
+          <button id="hardBtn" onclick="setDifficultyHard()">
+            Hard
+          </button>
+          
+          <button id="hardBtn2" class="hidden">
+            Hard
+          </button>
+          
+           <button id="changeDiff" class="hidden" onclick="changeDifficulty()">
+            Change Difficulty
+          </button>
+          
+          <br/>
+          <br/>
+          
+          <button id="startBtnEasy" class="hidden" onclick="startGameEasy()" >
+            Start
+          </button>
+          
+          <button id="startBtnMed" class="hidden" onclick="startGameMed()" >
+            Start
+          </button>
+          
+          <button id="startBtnHard" class="hidden" onclick="startGameHard()" >
+            Start
+          </button>
+          
+          <button id="stopBtn" class="hidden" onclick="stopGame()"  >
+            Stop
+          </button>
+          
+          <br/>
+
+          <div id="gameButtonArea">
+            <button id="button1" onclick="guess(1)" onmousedown="startTone(1)" onmouseup="stopTone()" ></button>
+            <button id="button3" onclick="guess(3)" onmousedown="startTone(3)" onmouseup="stopTone()" ></button>
+            <button id="button5" class="hidden" onclick="guess(5)" onmousedown="startTone(5)" onmouseup="stopTone()" ></button>
+            <button id="button7" class="hidden" onclick="guess(7)" onmousedown="startTone(7)" onmouseup="stopTone()" ></button>
+            
+          </div>
+          
+          <div id="gameButtonArea2">
+            
+            <button id="button2" onclick="guess(2)" onmousedown="startTone(2)" onmouseup="stopTone()" ></button>
+            <button id="button4" onclick="guess(4)" onmousedown="startTone(4)" onmouseup="stopTone()" ></button>
+            <button id="button6" class="hidden" onclick="guess(6)" onmousedown="startTone(6)" onmouseup="stopTone()" ></button>
+            <button id="button8" class="hidden" onclick="guess(8)" onmousedown="startTone(8)" onmouseup="stopTone()" ></button>
+            
+          </div>
+          
+          <!-- Once you've added the button from the readme, click it in the page -->
+          <!-- Check out the function in script.js to see how it works -->
+        </div>
+      </div>
+    </div>
+   
+  </body>
+</html>
