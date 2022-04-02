@@ -39,9 +39,9 @@ The following **additional** features are implemented:
 ## Video Walkthrough (GIF)
 
 If you recorded multiple GIFs for all the implemented features, you can add them here:
-<img src ="https://recordit.co/KDrsIuKFOd"><br>
-![Starting / Stopping game](https://recordit.co/598EFnlQGz)
-![Playing and losing game](https://recordit.co/TA3xiAjEkk)
+https://recordit.co/KDrsIuKFOd
+https://recordit.co/598EFnlQGz
+https://recordit.co/TA3xiAjEkk
 
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
