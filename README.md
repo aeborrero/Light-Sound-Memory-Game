@@ -39,7 +39,7 @@ The following **additional** features are implemented:
 ## Video Walkthrough (GIF)
 
 If you recorded multiple GIFs for all the implemented features, you can add them here:
-<img srx ="https://recordit.co/KDrsIuKFOd"
+<img src ="https://recordit.co/KDrsIuKFOd"><br>
 ![Starting / Stopping game](https://recordit.co/598EFnlQGz)
 ![Playing and losing game](https://recordit.co/TA3xiAjEkk)
 
