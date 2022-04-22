@@ -60,9 +60,6 @@ For sure I would have liked to have a much nicer looking code because how I did 
 
 
 
-## Interview Recording URL Link
-
-[My 5-minute Interview Recording](https://drive.google.com/file/d/1azfNTjUKox4-MhsLPLb_4rPHkzd6Co3L/view?usp=sharing)
 
 
 ## License
